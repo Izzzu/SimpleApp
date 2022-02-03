@@ -3,7 +3,7 @@
  */
 package simpleapp;
 
-public class App {
+public class Greeting {
     public String getGreeting() {
         return "Hello World!";
     }
@@ -12,9 +12,4 @@ public class App {
         return "Greetings!";
     }
 
-    public static void main(String[] args) {
-        Greeting greeting = new Greeting();
-        System.out.println(greeting.getGreeting());
-        System.out.println(greeting.getAnotherGreeting());
-    }
 }
